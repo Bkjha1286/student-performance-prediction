@@ -1,31 +1,69 @@
 # Student Performance Prediction
 
-A machine learning project that predicts student academic performance based on key input features.  
-This project applies supervised learning techniques to classify/predict performance outcomes.
+This project analyzes student academic performance and builds predictive models to estimate final grades based on multiple factors such as demographic, social, and academic attributes. The goal is to identify the most significant features influencing performance and help educators make data-driven decisions.
 
-## Features
-- Data preprocessing and feature engineering  
-- Training multiple machine learning models  
-- Performance evaluation with accuracy metrics  
-- Predicts likelihood of student success  
+Project Overview
 
-## Tech Stack
-- Python  
-- Pandas, NumPy, Matplotlib, Seaborn  
-- Scikit-Learn (Logistic Regression, Decision Trees, Random Forest, etc.)  
-- Jupyter Notebook  
+The notebook explores the Student Performance dataset to:
 
-## How It Works
-1. Collects and cleans dataset (student demographics, study habits, etc.)  
-2. Splits data into training and testing sets  
-3. Trains models and compares results  
-4. Generates predictions on new/unseen data  
+Perform data cleaning and preprocessing.
 
-## Future Improvements
-- Integrate deep learning models for higher accuracy  
-- Build a user-friendly dashboard with Power BI or Streamlit  
+Conduct exploratory data analysis (EDA) using visualizations.
 
----
+Build and evaluate machine learning models for grade prediction.
+
+Compare regression and classification approaches.
+
+Save and reuse trained models for future predictions.
+
+
+ Features
+
+Data loading and preprocessing
+
+Correlation analysis using heatmaps
+
+Feature scaling and encoding
+
+Model training:
+
+Random Forest Regressor (for predicting numeric grades)
+
+Random Forest Classifier (for predicting pass/fail or grade categories)
+
+Model evaluation using metrics like MAE, MSE, R², accuracy, and confusion matrix
+
+Model saving with joblib for deployment
+
+
+Tech Stack
+
+Language: Python
+
+Libraries:
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+joblib
+
+
+ Dataset
+
+The dataset includes attributes like:
+
+Demographic data: gender, age, parental education, etc.
+
+Academic performance: study time, failures, absences, grades (G1, G2, G3).
+
+Behavioral factors: internet usage, health, family support.
 
 ## Author
 Baidyanath Kumar Jha  
