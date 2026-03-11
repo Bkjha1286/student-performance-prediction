@@ -12,9 +12,8 @@ UCI Machine Learning Repository — Student Performance dataset (student-mat.csv
 2.Preprocessing: Label Encoding applied to all categorical columns; four engineered features created — grade_trend (G2−G1), avg_parent_edu ((Medu+Fedu)/2), risk_score (failures + absences/10 + Dalc), support_score (schoolsup + famsup + paid).
 
 3.Train/test split (80/20, stratified by target) and StandardScaler applied; same scaler used to transform test set.
-Models:
 
-4.Classification: Logistic Regression (max_iter=1000, C=1.0), Decision Tree (max_depth=5), Random Forest (n_estimators=150, max_depth=7).
+4.Models: Classification: Logistic Regression (max_iter=1000, C=1.0), Decision Tree (max_depth=5), Random Forest (n_estimators=150, max_depth=7).
 
 5.Evaluate with accuracy, precision, recall, F1 score, AUC-ROC, confusion matrix, full classification report, and 5-Fold Stratified Cross Validation accuracy.
 
