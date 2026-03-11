@@ -1,10 +1,10 @@
-#  Student Performance Prediction
+# 🎓 Student Performance Prediction
 
 This project analyzes student academic performance and builds machine learning classification models to predict whether a student will Pass or Fail based on demographic, lifestyle, school support, and academic features. The goal is to identify key risk factors and help educators make data-driven intervention decisions.
 
 ---
 
-##  Project Overview
+## 🧠 Project Overview
 
 The notebook explores the **UCI Student Performance dataset** to:
 - Perform exploratory data analysis through a 5-panel dark-theme dashboard
@@ -15,7 +15,7 @@ The notebook explores the **UCI Student Performance dataset** to:
 
 ---
 
-##  Features
+## ⚙️ Features
 - 5-panel dark-theme EDA dashboard covering KPIs, risk factors, and correlations
 - Feature engineering: grade_trend, risk_score, support_score, avg_parent_edu
 - Feature encoding with LabelEncoder and scaling with StandardScaler
@@ -29,7 +29,7 @@ The notebook explores the **UCI Student Performance dataset** to:
 
 ---
 
-##  Tech Stack
+## 🧩 Tech Stack
 **Language:** Python  
 **Libraries:**
 - pandas, numpy
@@ -38,7 +38,7 @@ The notebook explores the **UCI Student Performance dataset** to:
 
 ---
 
-##  Dataset
+## 📊 Dataset
 - **Source:** UCI Machine Learning Repository — Student Performance Dataset
 - **File used:** student-mat.csv (395 students, 30 features)
 - **Target:** pass_fail (1 = Pass if G3 ≥ 10, 0 = Fail)
@@ -46,7 +46,7 @@ The notebook explores the **UCI Student Performance dataset** to:
 
 ---
 
-##  Results
+## 📈 Results
 - Random Forest achieved the best performance: F1 ~0.92, AUC ~0.93
 - G1 and G2 (previous grades) are the strongest predictors of final outcome
 - Engineered feature grade_trend (G2−G1) proved highly informative
@@ -54,7 +54,7 @@ The notebook explores the **UCI Student Performance dataset** to:
 
 ---
 
-##  Future Work
+## 🔮 Future Work
 - Deploy as a web app using Streamlit or Flask
 - Apply GridSearchCV for hyperparameter tuning
 - Add SHAP explainability to communicate predictions to educators
@@ -62,7 +62,7 @@ The notebook explores the **UCI Student Performance dataset** to:
 
 ---
 
-##  Author
+## 👨‍💻 Author
 Baidyanath Kumar Jha  
 MCA Graduate, AIML Specialization  
 GitHub: [Bkjha1286](https://github.com/Bkjha1286)  
